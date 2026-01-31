@@ -9,7 +9,7 @@ int singleNumber(vector<int>& nums) {
     return ans;
 }
 int main() {
-    vector<int> nums = {4, 1, 2, 1, 2};
+    vector<int> nums = {4, 1, 2, 1, 2}; // using vector
     cout << "Single Number: " << singleNumber(nums);
     return 0;
 }
